@@ -1,0 +1,3 @@
+[build]
+  command = "pnpm --filter @workspace/devware... run build"
+  publish = "artifacts/devware/dist/public"

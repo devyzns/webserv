@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Core */
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node16",
+
+    /* Environment */
+    "lib": ["ES2022"],
+    "types": ["node"],
+
+    /* Strictness */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noEmitOnError": true,
+
+    /* Module handling */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    /* Performance */
+    "skipLibCheck": true,
+
+    /* Monorepo / custom */
+    "customConditions": ["workspace"]
+  }
+}
